@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+<body>
+    <div class="container mx-auto px-4">
+        <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+              <a href="/"><img src="logo.png" height="200px" width="200px" alt=""></a>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a  href="/"class="mr-5 hover:text-yellow-500">Home</a>
+                <a href="/sofaGallary" class="mr-5 hover:text-yellow-500">Gallery</a>
+                <a href="/animatedChair" class="mr-5 hover:text-yellow-500">Animated</a>
+                <a href='/contact' class="mr-5 hover:text-yellow-500">Contact </a>
+              </nav>
+              </div>
+        </header>
+        <h1 class="mt-10 mb-5 text-center text-3xl">Welcome to Glauben Enterprise Gallery.</h1>
+    <h3 class="mb-10 text-center text-xl">The Cafe Chair Images</h3>
+
+    <!-- Image gird -->
+    <div class="p-20 grid grid-cols-4 gap-5">
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii3.pepperfry.com/media/catalog/product/e/m/494x544/emilia-cafe-chair-in-black-colour-by-creative-seating-system-emilia-cafe-chair-in-black-colour-by-cr-6shtnr.jpg" alt="Flower"
+            onclick="showModal('https://ii3.pepperfry.com/media/catalog/product/e/m/494x544/emilia-cafe-chair-in-black-colour-by-creative-seating-system-emilia-cafe-chair-in-black-colour-by-cr-6shtnr.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/e/a/440x484/eames-cafe-chair-in-white-colour-by-star-india-eames-cafe-chair-in-white-colour-by-star-india-9ie5h8.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/e/a/440x484/eames-cafe-chair-in-white-colour-by-star-india-eames-cafe-chair-in-white-colour-by-star-india-9ie5h8.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/t/u/800x880/tuscan-solid-wood-dining-chair-in-honey-oak-finish-by-woodsworth-tuscan-solid-wood-dining-chair-in-h-nlo2ur.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/t/u/800x880/tuscan-solid-wood-dining-chair-in-honey-oak-finish-by-woodsworth-tuscan-solid-wood-dining-chair-in-h-nlo2ur.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.finallyhomefurnishings.com/v/vspfiles/photos/102682-2T.jpg" alt="Flower"
+            onclick="showModal('https://www.finallyhomefurnishings.com/v/vspfiles/photos/102682-2T.jpg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/p/e/1100x1210/perdue-metal-dining-chair-in-blue-colour---bohemiana-by-pepperfry-perdue-metal-dining-chair-in-blue--lfk4td.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/p/e/1100x1210/perdue-metal-dining-chair-in-blue-colour---bohemiana-by-pepperfry-perdue-metal-dining-chair-in-blue--lfk4td.jpg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://plataimport.ca/wp-content/uploads/2018/02/Bucket-Wood-Black.jpg" alt="Flower"
+            onclick="showModal('https://plataimport.ca/wp-content/uploads/2018/02/Bucket-Wood-Black.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/b/o/800x880/bolivar-lounge-chair-in-yellow-colour---casacraft-by-pepperfry-bolivar-lounge-chair-in-yellow-colour-k7trqg.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/b/o/800x880/bolivar-lounge-chair-in-yellow-colour---casacraft-by-pepperfry-bolivar-lounge-chair-in-yellow-colour-k7trqg.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/j/o/494x544/joana-cafe-chair-in-yellow-colour-by-creative-seating-system-joana-cafe-chair-in-yellow-colour-by-cr-xebg6n.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/j/o/494x544/joana-cafe-chair-in-yellow-colour-by-creative-seating-system-joana-cafe-chair-in-yellow-colour-by-cr-xebg6n.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.chromecraft.com/wp-content/uploads/2020/06/Cafe-Chairs-a-Premium-range-of-cafeteria-chairs-manufacturer-in-GurugramDelhi.jpg" alt="Flower"
+            onclick="showModal('https://www.chromecraft.com/wp-content/uploads/2020/06/Cafe-Chairs-a-Premium-range-of-cafeteria-chairs-manufacturer-in-GurugramDelhi.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://4.imimg.com/data4/LQ/HS/MY-2828529/hotel-plastic-chair-500x500.jpg" alt="Flower"
+            onclick="showModal('https://4.imimg.com/data4/LQ/HS/MY-2828529/hotel-plastic-chair-500x500.jpg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/i/c/800x880/ice-chair--in-green-color-by-devanshi-ice-chair--in-green-color-by-devanshi-ldnp7i.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/i/c/800x880/ice-chair--in-green-color-by-devanshi-ice-chair--in-green-color-by-devanshi-ldnp7i.jpg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.betterhomeindia.com/wp-content/uploads/2019/01/CRYSTAL-GREEN-min.jpg" alt="Flower"
+            onclick="showModal('https://www.betterhomeindia.com/wp-content/uploads/2019/01/CRYSTAL-GREEN-min.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://4.imimg.com/data4/ET/DW/MY-27031354/zip-plastic-chair-500x500.jpg" alt="Flower"
+            onclick="showModal('https://4.imimg.com/data4/ET/DW/MY-27031354/zip-plastic-chair-500x500.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://sc01.alicdn.com/kf/H52114551a8504e5db7bbc6edb19b274dT/223267671/H52114551a8504e5db7bbc6edb19b274dT.jpeg" alt="Flower"
+            onclick="showModal('https://sc01.alicdn.com/kf/H52114551a8504e5db7bbc6edb19b274dT/223267671/H52114551a8504e5db7bbc6edb19b274dT.jpeg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgpmhjemWHX4nQG8a_LMF0_JtiIJH_toOfGOAhbCTJIP1lMlsjTap8Drk4GDPoTT-Ek4w&usqp=CAU" alt="Flower"
+            onclick="showModal('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgpmhjemWHX4nQG8a_LMF0_JtiIJH_toOfGOAhbCTJIP1lMlsjTap8Drk4GDPoTT-Ek4w&usqp=CAU')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://media.fds.fi/product_image/800/90_Hay_21_th.jpg" alt="Flower"
+            onclick="showModal('https://media.fds.fi/product_image/800/90_Hay_21_th.jpg')" /> 
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/KESCHAIRBK_steel_stacking_chair_gloss_black.jpg" alt="Flower"
+            onclick="showModal('https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/KESCHAIRBK_steel_stacking_chair_gloss_black.jpg')" />  
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://foter.com/photos/371/gamera-stackable-nylon-chair-set-of-2.jpg" alt="Flower"
+            onclick="showModal('https://foter.com/photos/371/gamera-stackable-nylon-chair-set-of-2.jpg')" />        
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cafesolutions.com.au/wp-content/uploads/Tolixstool-black76-TO-BL-76B-view1-1-scaled.jpg" alt="Flower"
+            onclick="showModal('https://cafesolutions.com.au/wp-content/uploads/Tolixstool-black76-TO-BL-76B-view1-1-scaled.jpg')" />        
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://images.thdstatic.com/productImages/252c3958-56be-4b1a-8c3e-eb22b056baeb/svn/red-chrome-bar-stools-fmi2124-red-64_600.jpg" alt="Flower"
+            onclick="showModal('https://images.thdstatic.com/productImages/252c3958-56be-4b1a-8c3e-eb22b056baeb/svn/red-chrome-bar-stools-fmi2124-red-64_600.jpg')" />        
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.therange.co.uk/_m4/8/9/1580721639_2_5148.jpg" alt="Flower"
+            onclick="showModal('https://www.therange.co.uk/_m4/8/9/1580721639_2_5148.jpg')" />
+           
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://4.imimg.com/data4/DE/JK/MY-4146599/stylish-bar-stool-500x500.jpg" alt="Flower"
+            onclick="showModal('https://4.imimg.com/data4/DE/JK/MY-4146599/stylish-bar-stool-500x500.jpg')" />   
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://4.imimg.com/data4/GW/OS/MY-2581996/bar-chair-500x500.jpg" alt="Flower"
+            onclick="showModal('https://4.imimg.com/data4/GW/OS/MY-2581996/bar-chair-500x500.jpg')" />                                   
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.lakeland-furniture.co.uk/media/catalog/product/cache/a5c97512507ca50d69a77ad0fd4e7bb5/c/i/cisco_grey_1.jpg" alt="Flower"
+            onclick="showModal('https://www.lakeland-furniture.co.uk/media/catalog/product/cache/a5c97512507ca50d69a77ad0fd4e7bb5/c/i/cisco_grey_1.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.jiomart.com/images/product/original/rvab1uikqn/da-urban-roundbar-height-adjustable-black-leatherette-bar-stool-chair-38-1-cm-x-38-1-cm-x-83-82-cm-set-of-2-product-images-orvab1uikqn-p590821576-1-202110121748.jpg" alt="Flower"
+            onclick="showModal('https://www.jiomart.com/images/product/original/rvab1uikqn/da-urban-roundbar-height-adjustable-black-leatherette-bar-stool-chair-38-1-cm-x-38-1-cm-x-83-82-cm-set-of-2-product-images-orvab1uikqn-p590821576-1-202110121748.jpg')" /> 
+           
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="modal"
+        class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center">
+
+        <!-- The close button -->
+        <a class="fixed z-90 top-6 right-8 text-white text-5xl font-bold" href="javascript:void(0)"
+            onclick="closeModal()">&times;</a>
+
+        <!-- A big image will be displayed here -->
+        <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" />
+    </div>
+
+    <script>
+        // Get the modal by id
+        var modal = document.getElementById("modal");
+
+        // Get the modal image tag
+        var modalImg = document.getElementById("modal-img");
+
+        // this function is called when a small image is clicked
+        function showModal(src) {
+            modal.classList.remove('hidden');
+            modalImg.src = src;
+        }
+
+        // this function is called when the close button is clicked
+        function closeModal() {
+            modal.classList.add('hidden');
+        }
+    </script>
+    
+     </div>   
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>       
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+<body>
+    <div class="container mx-auto px-4">
+        <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+              <a href="/"><img src="logo.png" height="200px" width="200px" alt=""></a>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a  href="/"class="mr-5 hover:text-yellow-500">Home</a>
+                <a href="/sofaGallary" class="mr-5 hover:text-yellow-500">Gallery</a>
+                <a href="/animatedChair" class="mr-5 hover:text-yellow-500">Animated</a>
+                <a href='/contact' class="mr-5 hover:text-yellow-500">Contact </a>
+              </nav>
+              </div>
+        </header>
+        <h1 class="mt-10 mb-5 text-center text-3xl">Welcome to Glauben Enterprise Gallery.</h1>
+    <h3 class="mb-10 text-center text-xl">The Office Chair Images</h3>
+
+    <!-- Image gird -->
+    <div class="p-20 grid grid-cols-4 gap-5">
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.pngitem.com/pimgs/m/515-5158652_office-chair-png-back-transparent-png.png" alt="Flower"
+            onclick="showModal('https://www.pngitem.com/pimgs/m/515-5158652_office-chair-png-back-transparent-png.png')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.pngitem.com/pimgs/m/351-3511281_spc-gear-eg950-ergonomic-chair-hd-png-download.png" alt="Flower"
+            onclick="showModal('https://www.pngitem.com/pimgs/m/351-3511281_spc-gear-eg950-ergonomic-chair-hd-png-download.png')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="http://atlas-content-cdn.pixelsquid.com/stock-images/black-mesh-office-chair-exdV9XF-600.jpg" alt="Flower"
+            onclick="showModal('http://atlas-content-cdn.pixelsquid.com/stock-images/black-mesh-office-chair-exdV9XF-600.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.pngitem.com/pimgs/m/381-3819057_mesh-office-chair-with-headrest-hd-png-download.png" alt="Flower"
+            onclick="showModal('https://www.pngitem.com/pimgs/m/381-3819057_mesh-office-chair-with-headrest-hd-png-download.png')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://seated.com.au/wp-content/uploads/2017/03/Ergomedic-Executive-Mesh-CHair-front.png" alt="Flower"
+            onclick="showModal('https://seated.com.au/wp-content/uploads/2017/03/Ergomedic-Executive-Mesh-CHair-front.png')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://myseat.sg/wp-content/uploads/2020/07/allo3-.png" alt="Flower"
+            onclick="showModal('https://myseat.sg/wp-content/uploads/2020/07/allo3-.png')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0631/1339/6473/products/1_700x700.png?v=1653306966" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0631/1339/6473/products/1_700x700.png?v=1653306966')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ergonomic-office-chair-1655388443.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*" alt="Flower"
+            onclick="showModal('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ergonomic-office-chair-1655388443.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="http://cdn.shopify.com/s/files/1/0290/6177/5439/products/SavionOfficeChair_10387075_side_800x.jpg?v=1610442118" alt="Flower"
+            onclick="showModal('http://cdn.shopify.com/s/files/1/0290/6177/5439/products/SavionOfficeChair_10387075_side_800x.jpg?v=1610442118')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/SELLER/Default/2020/11/DS/XE/NM/5697056/black-office-chair-500x500.jpeg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/SELLER/Default/2020/11/DS/XE/NM/5697056/black-office-chair-500x500.jpeg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/JB/XA/XL/SELLER-29783682/office-chair-500x500.jpg" alt="Flower"
+            onclick="showModal('https://w7.pngwing.com/pngs/96/805/png-transparent-table-chair-couch-furniture-stool-chair-angle-computer-office.png')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://4.imimg.com/data4/MC/FR/MY-9718389/boss-chairs-500x500.jpg" alt="Flower"
+            onclick="showModal('https://4.imimg.com/data4/MC/FR/MY-9718389/boss-chairs-500x500.jpg')" />
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://m.media-amazon.com/images/I/71AraVZjSiL._SL1500_.jpg" alt="Flower"
+            onclick="showModal('https://m.media-amazon.com/images/I/71AraVZjSiL._SL1500_.jpg')" />
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://furnishkart.com/wp-content/uploads/2020/03/matrix-executive-chair1.jpg" alt="Flower"
+            onclick="showModal('https://furnishkart.com/wp-content/uploads/2020/03/matrix-executive-chair1.jpg')" />
+         <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/m/a/800x880/matrix-high-back-study-chair-in-black-by-efc-matrix-high-back-study-chair-in-black-by-efc-guxes1.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/m/a/800x880/matrix-high-back-study-chair-in-black-by-efc-matrix-high-back-study-chair-in-black-by-efc-guxes1.jpg')" />
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/m/a/800x880/matrix-medium-back-ergonomic-chair-in-black-colour-by-efc-matrix-medium-back-ergonomic-chair-in-blac-cc9szu.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/m/a/800x880/matrix-high-back-study-chair-in-black-by-efc-matrix-high-back-study-chair-in-black-by-efc-guxes1.jpg')" />
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://furniturein.com/chairs4/wp-content/uploads/2019/07/f113-mb.jpg" alt="Flower"
+            onclick="showModal('https://furniturein.com/chairs4/wp-content/uploads/2019/07/f113-mb.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/z/e/568x625/zen-high-back--ergonomic-chair-in-grey-colour-by-oblique-zen-high-back--ergonomic-chair-in-grey-colo-hffewm.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/z/e/568x625/zen-high-back--ergonomic-chair-in-grey-colour-by-oblique-zen-high-back--ergonomic-chair-in-grey-colo-hffewm.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://wfh.transteel.com/wp-content/uploads/2021/12/Untitled18-2.jpg" alt="Flower"
+            onclick="showModal('https://wfh.transteel.com/wp-content/uploads/2021/12/Untitled18-2.jpg')" />
+             <img class="w-full h-full object-cover cursor-pointer"
+            src="https://m.media-amazon.com/images/I/61c-bbn1YlL.jpg" alt="Flower"
+            onclick="showModal('https://m.media-amazon.com/images/I/61c-bbn1YlL.jpg')" /> 
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/1844/9185/products/OIELANTRAMBBLK_1_800x_62be04d2-fca8-40d2-b886-ed72dd4f0d95_1024x1024.jpg?v=1628126276" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/1844/9185/products/OIELANTRAMBBLK_1_800x_62be04d2-fca8-40d2-b886-ed72dd4f0d95_1024x1024.jpg?v=1628126276')" /> 
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://m.media-amazon.com/images/I/51lUrgBfl0S._SL1500_.jpg" alt="Flower"
+            onclick="showModal('https://m.media-amazon.com/images/I/51lUrgBfl0S._SL1500_.jpg')" />  
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.makro.co.za/sys-master/images/h2f/h38/9017457606686/silo-MIN_350600_EAA_large" alt="Flower"
+            onclick="showModal('https://www.makro.co.za/sys-master/images/h2f/h38/9017457606686/silo-MIN_350600_EAA_large')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://d1zloi9myumgkb.cloudfront.net/images/janis-mid-back-chair-black.jpg" alt="Flower"
+            onclick="showModal('https://d1zloi9myumgkb.cloudfront.net/images/janis-mid-back-chair-black.jpg')" /> 
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0099/2867/1291/products/IVENUSCCHRBLK_04_2000x.jpg?v=1604562715" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0099/2867/1291/products/IVENUSCCHRBLK_04_2000x.jpg?v=1604562715')" /> 
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/u/f/ufitblack-red01_1.jpg" alt="Flower"
+            onclick="showModal('https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/u/f/ufitblack-red01_1.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://m.media-amazon.com/images/I/61esshUSgsL._SX466_.jpg" alt="Flower"
+            onclick="showModal('https://m.media-amazon.com/images/I/61esshUSgsL._SX466_.jpg')" />  
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/p/e/800x880/peter-high-back-executive-chair-in-brown-colour-by-efc-peter-high-back-executive-chair-in-brown-colo-ozxeba.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/p/e/800x880/peter-high-back-executive-chair-in-brown-colour-by-efc-peter-high-back-executive-chair-in-brown-colo-ozxeba.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/b/o/1100x1210/bottle-high-back-executive-office-chair-in-tan-colour-by-high-living-bottle-high-back-executive-offi-fypseq.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/b/o/1100x1210/bottle-high-back-executive-office-chair-in-tan-colour-by-high-living-bottle-high-back-executive-offi-fypseq.jpg')" />
+          
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/o/l/1100x1210/oliver-high-back-executive-chair-in-dual-tone-by-furniease-oliver-high-back-executive-chair-in-dual--ijles1.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/o/l/1100x1210/oliver-high-back-executive-chair-in-dual-tone-by-furniease-oliver-high-back-executive-chair-in-dual--ijles1.jpg')" />
+            
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/bella-high-back-executive-chair-in-black-colour-by-high-living-bella-high-back-executive-chair-in-bl-daa80c.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/bella-high-back-executive-chair-in-black-colour-by-high-living-bella-high-back-executive-chair-in-bl-daa80c.jpg')" />
+            
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/MI/DV/MY-57849256/sofa-500x500.jpg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/MI/DV/MY-57849256/sofa-500x500.jpg')" />  
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://www.betterhomeindia.com/wp-content/uploads/2019/03/quora-revolvingchair-betterhomeindia.jpg" alt="Flower"
+            onclick="showModal('https://www.betterhomeindia.com/wp-content/uploads/2019/03/quora-revolvingchair-betterhomeindia.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/watson-c102-boss-chair-in-black-colour-by-cellbell-watson-c102-boss-chair-in-black-colour-by-cellbel-rj627t.jpg" alt="Flower"
+            onclick="showModal('https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/watson-c102-boss-chair-in-black-colour-by-cellbell-watson-c102-boss-chair-in-black-colour-by-cellbel-rj627t.jpg')" />    
+    </div>
+
+    <!-- The Modal -->
+    <div id="modal"
+        class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center">
+
+        <!-- The close button -->
+        <a class="fixed z-90 top-6 right-8 text-white text-5xl font-bold" href="javascript:void(0)"
+            onclick="closeModal()">&times;</a>
+
+        <!-- A big image will be displayed here -->
+        <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" />
+    </div>
+
+    <script>
+        // Get the modal by id
+        var modal = document.getElementById("modal");
+
+        // Get the modal image tag
+        var modalImg = document.getElementById("modal-img");
+
+        // this function is called when a small image is clicked
+        function showModal(src) {
+            modal.classList.remove('hidden');
+            modalImg.src = src;
+        }
+
+        // this function is called when the close button is clicked
+        function closeModal() {
+            modal.classList.add('hidden');
+        }
+    </script>
+    
+     </div>   
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>       
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+<body>
+    <div class="container mx-auto px-4">
+        <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+              <a href="/"><img src="logo.png" height="200px" width="200px" alt=""></a>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a  href="/"class="mr-5 hover:text-yellow-500">Home</a>
+                <a href="/sofaGallary" class="mr-5 hover:text-yellow-500">Gallery</a>
+                <a href="/animatedChair" class="mr-5 hover:text-yellow-500">Animated</a>
+                <a href='/contact' class="mr-5 hover:text-yellow-500">Contact </a>
+              </nav>
+              </div>
+        </header>
+        <h1 class="mt-10 mb-5 text-center text-3xl">Welcome to Glauben Enterprise Gallery.</h1>
+    <h3 class="mb-10 text-center text-xl">The Nilkamal Chair Images</h3>
+
+    <!-- Image gird -->
+    <div class="p-20 grid grid-cols-4 gap-5">
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2226_Season_Rust_Brown-Biscuit_01_800x.jpg?v=1656323298" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2226_Season_Rust_Brown-Biscuit_01_800x.jpg?v=1656323298')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2180WBN_01_600x.jpg?v=1653987046" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2180WBN_01_600x.jpg?v=1653987046')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2146WEATHERBROWN_CHR2146WBN_02_400x.jpg?v=1656323931" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2146WEATHERBROWN_CHR2146WBN_02_400x.jpg?v=1656323931')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR4002WEATHERBROWN_02_400x.jpg?v=1656324257" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR4002WEATHERBROWN_02_400x.jpg?v=1656324257')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/MYSTIQUESRB_01_400x.jpg?v=1651811271" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/MYSTIQUESRB_01_400x.jpg?v=1651811271')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2225RDB_01_800x.jpg?v=1656324140" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2225RDB_01_800x.jpg?v=1656324140')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2197_W_WEATHER_BRN_SHELL_BISCUIT_INS_CHR2197WBN_BST_2_800x.jpg?v=1656324057" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2197_W_WEATHER_BRN_SHELL_BISCUIT_INS_CHR2197WBN_BST_2_800x.jpg?v=1656324057')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/PLATINUM_RATTAN_DARK_BEIGE_PLATINUMRDB_02_400x.jpg?v=1656326027" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/PLATINUM_RATTAN_DARK_BEIGE_PLATINUMRDB_02_400x.jpg?v=1656326027')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/HERITAGE_PEAR_WOOD_HERITAGEPRW_02_400x.jpg?v=1656324646" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/HERITAGE_PEAR_WOOD_HERITAGEPRW_02_400x.jpg?v=1656324646')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/PY/KU/SM/SELLER-64068811/nilkamal-plastic-chair-500x500.jpg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/PY/KU/SM/SELLER-64068811/nilkamal-plastic-chair-500x500.jpg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/HH/NM/MY-49910836/nilkamal-chairs-500x500.jpg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/HH/NM/MY-49910836/nilkamal-chairs-500x500.jpg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/GX/KK/MY-8504056/nilkamal-heritage-chair-500x500.jpg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/GX/KK/MY-8504056/nilkamal-heritage-chair-500x500.jpg')" />
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.moglix.com/p/I/O/H/d/MINIOHJOIG947-xxlarge.jpg" alt="Flower"
+            onclick="showModal('https://cdn.moglix.com/p/I/O/H/d/MINIOHJOIG947-xxlarge.jpg')" />
+
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/AG/QC/FW/SELLER-64853152/nilkamal-royal-plastic-chairs-500x500.jpg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/AG/QC/FW/SELLER-64853152/nilkamal-royal-plastic-chairs-500x500.jpg')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0099/2867/1291/products/crystalppweatherbrown1.jpg.60061ca776.989xx_294c590f-04bf-4fca-b86f-9717acbd6b33_2000x.jpg?v=1553592175" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0099/2867/1291/products/crystalppweatherbrown1.jpg.60061ca776.989xx_294c590f-04bf-4fca-b86f-9717acbd6b33_2000x.jpg?v=1553592175')" />
+        
+        <img class="w-full h-full object-cover cursor-pointer"
+            src="https://cdn.shopify.com/s/files/1/0044/1208/0217/products/EeezyGoCCG_03_400x.jpg?v=1653623417" alt="Flower"
+            onclick="showModal('https://cdn.shopify.com/s/files/1/0044/1208/0217/products/EeezyGoCCG_03_400x.jpg?v=1653623417')" /> 
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/AE/VR/BE/SELLER-8562081/plastic-dining-table-500x500-500x500.jpg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/AE/VR/BE/SELLER-8562081/plastic-dining-table-500x500-500x500.jpg')" />  
+            <img class="w-full h-full object-cover cursor-pointer"
+            src="https://5.imimg.com/data5/EI/IR/MY-29747288/plastic-dining-table-set-500x500.jpg" alt="Flower"
+            onclick="showModal('https://5.imimg.com/data5/EI/IR/MY-29747288/plastic-dining-table-set-500x500.jpg')" />        
+            
+           
+
+    </div>
+
+    <!-- The Modal -->
+    <div id="modal"
+        class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center">
+
+        <!-- The close button -->
+        <a class="fixed z-90 top-6 right-8 text-white text-5xl font-bold" href="javascript:void(0)"
+            onclick="closeModal()">&times;</a>
+
+        <!-- A big image will be displayed here -->
+        <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" />
+    </div>
+
+    <script>
+        // Get the modal by id
+        var modal = document.getElementById("modal");
+
+        // Get the modal image tag
+        var modalImg = document.getElementById("modal-img");
+
+        // this function is called when a small image is clicked
+        function showModal(src) {
+            modal.classList.remove('hidden');
+            modalImg.src = src;
+        }
+
+        // this function is called when the close button is clicked
+        function closeModal() {
+            modal.classList.add('hidden');
+        }
+    </script>
+    
+     </div>   
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>       
+</body>
+</html>
